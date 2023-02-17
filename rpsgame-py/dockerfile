@@ -1,0 +1,6 @@
+from python:alpine
+
+WORKDIR /application
+
+COPY . .
+CMD ["python", "RockPaperScissorsGame.py"]
